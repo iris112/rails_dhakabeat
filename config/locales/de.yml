@@ -1,0 +1,9 @@
+de:
+  pages:
+    index:
+      hello: "Hallo Seiten"
+  partisl:
+    index:
+       hello: "Hallo teilweise"
+  global:
+    hello: "Hallo global"

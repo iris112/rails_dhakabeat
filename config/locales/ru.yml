@@ -1,0 +1,9 @@
+ru:
+  pages:
+    index:
+      hello: "Привет страницы"
+  partisl:
+    index:
+       hello: "Привет частичный"
+  global:
+    hello: "Привет Глобальный"
