@@ -2,7 +2,70 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.class-name {
-    background: #fff url("1.jpg") no-repeat center center fixed;
-    background-size: cover;
+.home-workbit-text {
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.home-description-text {
+    font-size: 22px;
+    color: dimgray;
+    padding: 10px;
+}
+
+.home-btn {
+    padding: 20px;
+}
+
+.home-btn-text {
+    background-color: #5438DC;;
+    width: 150px;
+    height: 40px;
+}
+
+.text-start {
+    color: white;
+    font-size: 15px;;
+    padding: 0px;
+    margin: 0px;
+}
+
+.home-blogs-padding {
+    margin-top: calc(100vh/12);
+}
+
+
+.about-workbit-text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.about-about-text {
+    font-size: 30px;
+}
+
+.about-description-text {
+    font-size: 15px;
+    color: dimgray;
+}
+
+.about-blogs-padding {
+    margin-top: calc(100vh/25);
+}
+
+.about-header {
+    text-align: left;
+    display: flex;
+}
+
+.about-content {
+    text-align: left;
+    background-color: white;
+    padding: 30px 50px 50px 50px;
+    margin-top: 50px;
+    box-shadow: 
+        inset 0 -3em 3em rgba(0,0,0,0),
+                0 0 0 2px rgb(255,255,255),
+                0.3em 0.3em 1em rgba(0,0,0,0.1);
 }

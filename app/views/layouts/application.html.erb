@@ -7,8 +7,26 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"></a>
+        </div>
+        <ul class="nav navbar-nav nav-ul">
+          <li class="active nav-li"><%= link_to 'Login', root_path, class: "nav-item-text" %></li>
+          <li class="nav-li"><%= link_to 'About', about_path, class: "nav-item-text" %></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="row justify-content-center">
+      <div class="col-10">
+        <%= yield %>
+      </div>
+    </main>
+    <footer class="page-footer font-small">
+      <div class="footer-copyright text-center py-3">
+        Copyright © 2020 Workbit. All Rights Reserved
+      </div>
+    </footer>
 </body>
 </html>

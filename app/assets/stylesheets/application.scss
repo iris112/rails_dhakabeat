@@ -13,3 +13,34 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: inline;
+}
+
+.nav-li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.nav-item-text {
+    color: #5438DC;
+}
+
+body {
+    background-image: linear-gradient(#fcf4fe, white, white);
+}
+
+main {
+    min-height: calc(100vh - 136px - 44px);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;;
+    color: dimgray;;
+}
