@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    min-height: calc(100vh - 136px - 44px);
+    min-height: calc(100vh - 136px - 83px);
 }
 
 footer {
@@ -45,4 +45,9 @@ footer {
 
 .nav-item-text {
     color: #5438DC;
+}
+
+.nav-workbit-text {
+    font-size: 30px;
+    font-weight: bolder;
 }

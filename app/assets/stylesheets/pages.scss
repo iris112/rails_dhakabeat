@@ -20,22 +20,12 @@
     background-color: #5438DC;;
     width: 150px;
     height: 40px;
-}
-
-.text-start {
     color: white;
     font-size: 15px;;
-    padding: 0px;
-    margin: 0px;
 }
 
 .home-blogs-padding {
     margin-top: calc(100vh/12);
-}
-
-.about-workbit-text {
-    font-size: 30px;
-    font-weight: bolder;
 }
 
 .about-about-text {
@@ -48,7 +38,7 @@
 }
 
 .about-blogs-padding {
-    margin-top: calc(100vh/25);
+    margin-top: calc(100vh/20);
 }
 
 .about-header {
@@ -59,8 +49,8 @@
 .about-content {
     text-align: left;
     background-color: white;
-    padding: 30px 50px 50px 50px;
-    margin-top: 50px;
+    padding: 20px 50px 40px 50px;
+    margin-top: 20px;
     box-shadow: 
         inset 0 -3em 3em rgba(0,0,0,0),
                 0 0 0 2px rgb(255,255,255),
