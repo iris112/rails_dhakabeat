@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    min-height: calc(100vh - 136px - 83px);
+    min-height: calc(100vh - 250px);
 }
 
 footer {
@@ -50,4 +50,14 @@ footer {
 .nav-workbit-text {
     font-size: 30px;
     font-weight: bolder;
+}
+
+.justify-content-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 67px;
 }

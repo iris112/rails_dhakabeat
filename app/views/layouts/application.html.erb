@@ -9,11 +9,11 @@
 <body>
   <div class="row justify-content-center">
   <div class="col-10">
-    <nav class="navbar navbar-inverse navbar-fixed-top pl-0 pr-0">
+    <nav class="navbar navbar-inverse navbar-fixed-top pl-0 pr-0 container">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">
-          <div class="about-header">
+          <div class="about-header" <%= 'hidden' if current_page?(root_url) %>>
               <%= image_tag "icon_star.png" %>
               <label class="nav-workbit-text m-1"><%= image_tag "icon_workbit_1.png" %></label>
           </div>
