@@ -1,0 +1,15 @@
+en:
+    partisl:
+        loginText: "Login"
+        aboutText: "About"
+        blog1:
+            title: "Create and forward emails for your domains"
+            body: "Workbit lets you connect your GoDaddy account and create email addresses that you can forward to your personal email address."
+        blog2: 
+            title: "Get simplified analytics for all your projects"
+            body: "Get basic metrics like total and unique visits, page views , and user counts. You can also connect data pipelines to get addtional data for each project."
+        blog3:
+            title: "Manage LetsEncrypt SSL for all your domains"
+            body: "We automatically enable SSL from LetsEncrypt for all your domais and renew them automatically so you don't have to."
+        language: "language"
+        

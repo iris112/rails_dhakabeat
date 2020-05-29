@@ -1,0 +1,16 @@
+<nav class="navbar navbar-inverse navbar-fixed-top pl-0 pr-0 container">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+            <div class="about-header" <%= 'hidden' if current_page?(root_url) %>>
+                <%= image_tag "icon_star.png" %>
+                <label class="nav-workbit-text m-1"><%= image_tag "icon_workbit_1.png" %></label>
+            </div>
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active nav-li"><%= link_to t('partisl.loginText'), root_path, class: "nav-item-text" %></li>
+            <li class="nav-li"><%= link_to t('partisl.aboutText'), about_path, class: "nav-item-text" %></li>
+        </ul>
+    </div>
+</nav>

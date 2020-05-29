@@ -1,0 +1,14 @@
+de:
+    partisl:
+        loginText: "Anmeldung"
+        aboutText: "Über"
+        blog1:
+            title: "Erstellen und leiten Sie E-Mails für Ihre Domains weiter"
+            body: "Mit Workbit können Sie Ihr GoDaddy-Konto verbinden und E-Mail-Adressen erstellen, die Sie an Ihre persönliche E-Mail-Adresse weiterleiten können."
+        blog2: 
+            title: "Erhalten Sie vereinfachte Analysen für alle Ihre Projekte"
+            body: "Erhalten Sie grundlegende Messdaten wie Gesamt- und eindeutige Besuche, Seitenaufrufe und Benutzerzahlen. Sie können auch Datenpipelines verbinden, um zusätzliche Daten für jedes Projekt abzurufen."
+        blog3:
+            title: "Verwalten Sie LetsEncrypt SSL für alle Ihre Domains"
+            body: "Wir aktivieren SSL von LetsEncrypt automatisch für alle Ihre Domais und erneuern sie automatisch, damit Sie dies nicht tun müssen."
+        language: "Sprache"

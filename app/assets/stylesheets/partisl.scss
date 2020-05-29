@@ -3,14 +3,40 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .blog-p-text {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .blog-label-text {
-    font-size: 15px;
+    font-size: 14px;
     color: dimgray;
 }
 
 .blog-icon-padding {
     padding-bottom: 10px;
+}
+
+.container-fluid {
+    padding: 0;
+    height: 67px;
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: inline!important;
+}
+
+.nav-li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.nav-item-text {
+    color: #5438DC;
+}
+
+.nav-workbit-text {
+    font-size: 30px;
+    font-weight: bolder;
 }

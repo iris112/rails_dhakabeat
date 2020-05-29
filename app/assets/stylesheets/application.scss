@@ -22,7 +22,7 @@ body {
 }
 
 main {
-    min-height: calc(100vh - 136px - 83px);
+    min-height: calc(100vh - 140px - 83px);
 }
 
 footer {
@@ -31,33 +31,8 @@ footer {
     color: dimgray;;
 }
 
-.nav-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    display: inline;
-}
-
-.nav-li {
-    float: right;
-    padding: 0 10px 0 10px;
-}
-
-.nav-item-text {
-    color: #5438DC;
-}
-
-.nav-workbit-text {
-    font-size: 30px;
-    font-weight: bolder;
-}
-
 .justify-content-center {
     margin-left: auto;
     margin-right: auto;
 }
 
-.container-fluid {
-    padding: 0;
-    height: 67px;
-}
